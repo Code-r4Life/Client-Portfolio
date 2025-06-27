@@ -48,7 +48,7 @@ const About = () => {
           </section>
 
           {/* Beyond the Lab */}
-          <section className="cursor-pointer relative group bg-white shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-2xl hover:scale-105 border border-gray-200 hover:border-blue-300">
+          <section className="cursor-pointer relative group bg-white shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-2xl hover:scale-105 border border-gray-200 hover:border-blue-300 mb-12">
             <h2 className="text-2xl font-semibold mb-3 transition-colors duration-300 hover:text-blue-600">Beyond the Lab</h2>
             <p>
               When not immersed in materials and sensors, I actively participate in science outreach and mentorship programs. I work with the OU Sooner Racing Team, volunteer in community events like "The Big Event," and lead K-12 workshops that bring microscopy and material science to the next generation of innovators.

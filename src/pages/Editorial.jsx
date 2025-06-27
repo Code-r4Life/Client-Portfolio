@@ -80,7 +80,7 @@ const EditorialAndReview = () => {
 
         {/* Content */}
         {activeTab === "editorial" ? (
-          <div className="grid lg:grid-cols-1 gap-8">
+          <div className="grid lg:grid-cols-1 gap-8 mb-10">
             {editorialRoles.map((role, index) => (
               <div
                 key={index}
@@ -112,7 +112,7 @@ const EditorialAndReview = () => {
             ))}
           </div>
         ) : (
-          <div className="grid lg:grid-cols-1 gap-8">
+          <div className="grid lg:grid-cols-1 gap-8 mb-10">
             {peerReviews.map((review, index) => (
               <div
                 key={index}

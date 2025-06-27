@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { Link } from 'react-router-dom';
 import mentoring1 from "../images/mentoring1.jpg";
 import mentoring2 from "../images/mentoring2.jpg";
 import teaching1 from "../images/teaching1.jpg"
@@ -202,19 +203,14 @@ const Mentorship = () => {
           </section>
 
           {/* Contact Section */}
-          <section className="text-center">
+          <section className="text-center mb-12">
             <h2 className="text-2xl font-semibold mb-3 hover:text-blue-600 transition-colors duration-300">
               Interested in Mentorship? 📩
             </h2>
             <p className="text-lg text-gray-700 mb-6">
               If you're passionate about <strong>material science, nanotechnology, or energy harvesting</strong> and want guidance, feel free to reach out!
             </p>
-            <a
-              href="/contact"
-              className="bg-blue-600 text-white px-6 py-3 text-lg font-semibold rounded-md shadow-md hover:bg-blue-700 transition-all duration-300"
-            >
-              Contact Me
-            </a>
+            <Link to="/contact" className="bg-blue-600 text-white px-6 py-3 text-lg font-semibold rounded-md shadow-md hover:bg-blue-700 transition-all duration-300">Contact Me</Link>
           </section>
         </div>
       </div>

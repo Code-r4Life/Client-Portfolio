@@ -49,7 +49,10 @@ function App() {
           <div className='flex flex-col items-center mx-auto'>
             <img src={km} alt='Kuntal Maity' className='h-[79vh] mx-10 mt-15 rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105 cursor-pointer' />
             <p className='text-lg text-gray-700 leading-relaxed lg:block hidden mt-6'>
-              <span ref={roleRef}>Lecturer | Postdoctoral Researcher</span>
+              <span ref={roleRef}></span>
+              <noscript>
+                  <p>Lecturer | Postdoctoral Researcher</p>
+              </noscript>
             </p>
             <span className='text-lg text-gray-700 leading-relaxed lg:block hidden font-bold'>University of Oklahoma</span>
           </div>
@@ -59,7 +62,10 @@ function App() {
                 <div className='flex flex-col gap-y-6 items-center lg:items-center'>
                   <p className='text-lg text-gray-700 leading-relaxed mt-18 w-full'>
                     <strong className='text-4xl font-bold text-center lg:text-left text-gray-800 transition-all duration-500 hover:text-blue-700'>Dr. Kuntal Maity</strong><br />
-                    <span ref={typedRef}>Applied Physicist | Materials Scientist | Educator | Innovator</span>
+                    <span ref={typedRef}></span>
+                    <noscript>
+                      <p>Applied Physicist | Materials Scientist | Educator | Innovator</p>
+                    </noscript>
                   </p>
                   <p className='text-lg text-gray-700 leading-relaxed w-full'>
                     <strong>Advancing Smart Materials for a Sustainable Future</strong><br />
