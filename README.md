@@ -30,6 +30,11 @@ A modern **React-based** website crafted for an academic professional in the fie
 
 ---
 
+## 🌐 Live Website  
+[Live Webapp](https://kuntal-maity.vercel.app/)
+
+---
+
 ## 💡 Confidentiality Notice
 
 > This project was developed under a client NDA. All identifiable personal and institutional details have been omitted. The focus here is on showcasing frontend craftsmanship and modern web practices.
