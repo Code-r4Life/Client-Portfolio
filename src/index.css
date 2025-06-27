@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+body{
+      font-family: 'Poppins';
+}
+
+@layer utilities {
+  /* Apply to the entire page */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #a0a0a0 transparent;
+  }
+
+  /* For Webkit Browsers (Chrome, Edge, Safari) */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #a0a0a0;
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+}
+
+    
