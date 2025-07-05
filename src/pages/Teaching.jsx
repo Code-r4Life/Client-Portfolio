@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import mentoring1 from "../images/mentoring1.jpg";
 import mentoring2 from "../images/mentoring2.jpg";
@@ -203,7 +204,7 @@ const Mentorship = () => {
           </section>
 
           {/* Contact Section */}
-          <section className="text-center mb-12">
+          <section className="text-center mb-10">
             <h2 className="text-2xl font-semibold mb-3 hover:text-blue-600 transition-colors duration-300">
               Interested in Mentorship? 📩
             </h2>
@@ -214,6 +215,7 @@ const Mentorship = () => {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

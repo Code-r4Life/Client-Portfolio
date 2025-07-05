@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 import linkedin from '../images/linkedin.png'
 import research from '../images/research.png'
 import scholar from '../images/scholar.png'
@@ -44,14 +45,14 @@ const Contact = () => {
   return (
     <div className="custom-scrollbar flex-1 overflow-y-auto flex flex-col h-screen">
         <Navbar />
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-6xl mx-auto px-6 py-9">
         {/* Page Title */}
         <h1 className="pt-[60px] text-4xl font-bold text-center text-gray-800 mb-10 transition-all duration-500 hover:text-blue-700">
           📩 Contact Me
         </h1>
 
         {/* Contact Details */}
-        <section className="mb-16">
+        <section className="mb-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">Get in Touch</h2>
           <div className="grid lg:grid-cols-2 gap-8">
             {contactInfo.map((contact, index) => (
@@ -95,6 +96,7 @@ const Contact = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 };

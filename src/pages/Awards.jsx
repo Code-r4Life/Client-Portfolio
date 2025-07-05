@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import awards1 from "../images/awards1.jpg"
 import awards2 from "../images/awards2.jpg"
 import awards3 from "../images/awards3.jpg"
@@ -198,7 +199,7 @@ const Awards = () => {
         </section>
 
         {/* Honors & Awards Section */}
-        <section className="mb-12">
+        <section className="mb-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">Honors & Awards</h2>
           <div className="grid lg:grid-cols-2 gap-8">
             {awards.map((award, index) => (
@@ -228,6 +229,7 @@ const Awards = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 };

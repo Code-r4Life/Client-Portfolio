@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 import certificate1 from "../images/certificate1.jpg";
 import certificate2 from "../images/certificate2.jpg";
 
@@ -134,6 +135,7 @@ const EditorialAndReview = () => {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 };

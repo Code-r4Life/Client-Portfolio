@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 
 const patents = [
   {
@@ -28,7 +29,7 @@ const Patents = () => {
           📜 Patents
         </h1>
 
-        <section className="mb-12">
+        <section className="mb-35">
           <div className="grid lg:grid-cols-2 gap-8">
             {patents.map((patent, index) => (
               <div
@@ -59,6 +60,7 @@ const Patents = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 };

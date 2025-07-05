@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import km from './images/km.jpg'
 import linkedin from './images/linkedin.png'
 import research from './images/research.png'
@@ -86,7 +87,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <ul className='flex justify-center items-center gap-x-6 mt-6 flex-wrap'>
+            <ul className='flex justify-center items-center gap-x-6 mt-6 flex-wrap mb-15'>
               <li>
                 <a
                   href='https://www.linkedin.com/in/kuntal-maity-819432187/'
@@ -135,6 +136,7 @@ function App() {
             </ul>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )

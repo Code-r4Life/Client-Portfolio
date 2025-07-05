@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 
 const journals = [
   {
@@ -161,7 +162,7 @@ const Publications = () => {
         </section>
 
         {/* Book Chapters Section */}
-        <section className="mb-12">
+        <section className="mb-10">
           <h2 className="text-3xl font-semibold text-gray-700 mb-6">Book Chapters</h2>
           <div className="grid lg:grid-cols-2 gap-8">
             {books.map((pub) => (
@@ -187,6 +188,7 @@ const Publications = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 };

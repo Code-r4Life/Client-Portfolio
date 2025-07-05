@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 import research2 from "../images/research2.jpg";
 import research3 from "../images/research3.jpg";
 import research6 from "../images/research6.jpg";
@@ -253,6 +254,7 @@ const Research = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };
